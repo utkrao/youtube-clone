@@ -3,6 +3,7 @@ import { Grid } from "@material-ui/core";
 // import youtube from "./api/youtube";
 import {SearchBar, VideoDetail, VideoList} from "./components";
 import youtube from "./api/youtube";
+import Test from "./components/Test";
 
 class App extends React.Component {
   state = {
@@ -53,6 +54,7 @@ class App extends React.Component {
                 </Grid>
           </Grid>
         </Grid>
+        <Test />
       </Grid>
     );
   }
