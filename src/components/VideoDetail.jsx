@@ -9,7 +9,7 @@ function VideoDetail({video}) {
     
 
     return <React.Fragment>
-        <Paper elevation = {4} style = {{height: "60%"}}>
+        <Paper elevation = {4} style = {{height: "auto"}}>
           <iframe frameBorder ="0" height = "810px" width = "978px" title = "Video Player" src = {videoSrc}  />
         </Paper>
         <Paper elevation = {6} style = {{padding: "15px"}}>

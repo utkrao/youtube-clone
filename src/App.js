@@ -13,7 +13,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-      this.handleSubmit("Yalgaar by CarryMinati");
+      this.handleSubmit("JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour by Programming with Mosh");
   }
    
   onVideoSelect = (video) => {
@@ -31,7 +31,7 @@ class App extends React.Component {
                 q: searchTerm,
        
            }
-        });
+        }); 
         
         this.setState({videos: response.data.items, selectedVideo: response.data.items[0]})
         
